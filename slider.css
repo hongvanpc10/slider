@@ -1,0 +1,19 @@
+.slider,
+.slider * {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.slider {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+}
+
+.slider-button--disabled {
+  pointer-events: none;
+}
